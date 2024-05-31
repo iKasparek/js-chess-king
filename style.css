@@ -1,0 +1,54 @@
+#gameboard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.square {
+	width: 200px;
+	height: 200px;
+}
+
+.beige {
+	background-color: rgba(227, 227, 199, 1);
+}
+
+.brown {
+	background-color: rgba(96, 54, 54, 1);
+}
+
+#info {
+	height: 2rem;
+}
+
+.chess-piece {
+	width: 200px;
+	height: 200px;
+	filter: drop-shadow(0 0 2px rgba(255, 255, 255, 1));
+	cursor: pointer;
+}
+
+.chess-haighlight {
+	background-color: rgb(230, 130, 130);
+}
+
+.chess-target {
+	border: 10px solid rgba(169, 56, 56, 1);
+	box-sizing: border-box;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-grab {
+	cursor: grab;
+}
+
+.cursor-grabing {
+	cursor: move !important;
+	cursor: -moz-grabbing !important;
+	cursor: -webkit-grabbing !important;
+	cursor: grabbing !important;
+}
